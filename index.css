@@ -73,4 +73,64 @@ figure {
 .card-content__description {
     color: var(--clr-soft-blue);
     margin: 0 24px;
+    margin-bottom: 16px;
+}
+
+.card-content__pricing {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    margin: 0 24px;
+    font-size: 15px;
+}
+
+.card-content__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 6px;
+}
+
+#eth {
+    color: var(--clr-cyan);
+    font-weight: bold;
+}
+
+#time {
+    color: var(--clr-soft-blue)
+}
+
+.card-content__separator {
+    border: 1px solid var(--clr-very-darl-blue-line);
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.card-content__author {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.avatar {
+    width: 33px;
+    height: 33px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.card-content__author-name {
+    color: var(--clr-soft-blue);
+    font-size: 15px;
+    margin-left: 16px;
+}
+
+.card-content__highlight {
+    color: white;
+    font-size: 15px;
 }

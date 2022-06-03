@@ -98,7 +98,7 @@ figure {
 
 #eth {
     color: var(--clr-cyan);
-    font-weight: bold;
+    font-weight: 300;
 }
 
 #time {
@@ -135,4 +135,38 @@ figure {
 .card-content__highlight {
     color: white;
     font-size: 15px;
+}
+
+@media (min-width: 90rem) {
+    .card {
+        width: 350px;
+        height: 596px;
+    }
+
+    .card-header__image {
+        width: 302px;
+        height: 302px;
+    }
+
+    .card-content__header {
+        margin-top: 20px;
+    }
+
+    .card-content__description {
+        margin-top: 18px
+    }
+
+    .card-content__pricing {
+        margin-top: 20px
+    }
+
+    .card-content__separator {
+        margin-top: 20px;
+        border: 0.1px solid var(--clr-very-darl-blue-line);
+        height: 0.1px;
+    }
+
+    .card-content__author-name {
+        font-weight: 600;
+    }
 }

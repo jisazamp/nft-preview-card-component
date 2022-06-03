@@ -43,6 +43,7 @@ figure {
 .container {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -65,6 +66,8 @@ figure {
     height: 278px;
     border-radius: 8px;
 }
+
+.overlay {display: none;}
 
 .card-content__header {
     color: white;
@@ -156,6 +159,7 @@ figure {
 
     .overlay {
         position: absolute;
+        display: block;
         top: 0;
         bottom: 0;
         left: 0;
